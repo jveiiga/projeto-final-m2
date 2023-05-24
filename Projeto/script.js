@@ -90,11 +90,11 @@ class Start {
             const name      = document.createElement("h2")
             const setor     = document.createElement("p")
             const hour      = document.createElement("p")
-            const icon      = document.createElement("img")
+            // const icon      = document.createElement("img")
 
             list.classList.add("li__carrosel__companies")
             container.classList.add("li__container")
-            icon.classList.add("img__icon")
+            // icon.classList.add("img__icon")
             
             setor.innerText = `- ${setorCompanies}`
             name.innerText  = nameCompanies
@@ -119,7 +119,7 @@ class Start {
             // }
 
             listCompanies.appendChild(list)
-            container.append(icon, name)
+            container.append( name)
             list.append(container, setor, hour)
         })
     }
