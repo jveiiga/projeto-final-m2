@@ -101,7 +101,7 @@ class Start {
             hour.innerText  =  `- Abre às ${hoursCompanies}`
 
             if (companie.sectors.description === "Alimenticio") {
-                icon.src = `./src/assets/alimenticio.png`
+                icon.src = `../Projeto/src/assets/alimenticio.png`
             }else if (companie.sectors.description === "Varejo") {
                 icon.src = `./src/assets/varejo.png`
             }else if (companie.sectors.description === "Textil") {
