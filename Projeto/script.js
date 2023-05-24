@@ -101,7 +101,7 @@ class Start {
             hour.innerText  =  `- Abre às ${hoursCompanies}`
 
             if (companie.sectors.description === "Alimenticio") {
-                icon.src = `../Projeto/src/assets/alimenticio.png`
+                icon.src = `https://www.flaticon.com/br/icone-gratis/montanha_9844046`
             }else if (companie.sectors.description === "Varejo") {
                 icon.src = `./src/assets/varejo.png`
             }else if (companie.sectors.description === "Textil") {
