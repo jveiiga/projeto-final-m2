@@ -100,23 +100,23 @@ class Start {
             name.innerText  = nameCompanies
             hour.innerText  =  `- Abre às ${hoursCompanies}`
 
-            if (companie.sectors.description === "Alimenticio") {
-                icon.src = `https://www.flaticon.com/br/icone-gratis/montanha_9844046`
-            }else if (companie.sectors.description === "Varejo") {
-                icon.src = `./src/assets/varejo.png`
-            }else if (companie.sectors.description === "Textil") {
-                icon.src = `./src/assets/textil.png`
-            }else if(companie.sectors.description === "Manufatura") {
-                icon.src = `./src/assets/manufatura.png`
-            }else if (companie.sectors.description === "Aeroespacial") {
-                icon.src = `./src/assets/aeroespacial.png`
-            }else if (companie.sectors.description === "Automotiva") {
-                icon.src = `./src/assets/automotiva.png`
-            }else if (companie.sectors.description === "TI") {
-                icon.src = `./src/assets/ti.png`
-            }else {
-                icon.src = `./src/assets/atacado.png`
-            }
+            // if (companie.sectors.description === "Alimenticio") {
+            //     icon.src = `/src/assets/alimenticio.png`
+            // }else if (companie.sectors.description === "Varejo") {
+            //     icon.src = `./src/assets/varejo.png`
+            // }else if (companie.sectors.description === "Textil") {
+            //     icon.src = `./src/assets/textil.png`
+            // }else if(companie.sectors.description === "Manufatura") {
+            //     icon.src = `./src/assets/manufatura.png`
+            // }else if (companie.sectors.description === "Aeroespacial") {
+            //     icon.src = `./src/assets/aeroespacial.png`
+            // }else if (companie.sectors.description === "Automotiva") {
+            //     icon.src = `./src/assets/automotiva.png`
+            // }else if (companie.sectors.description === "TI") {
+            //     icon.src = `./src/assets/ti.png`
+            // }else {
+            //     icon.src = `./src/assets/atacado.png`
+            // }
 
             listCompanies.appendChild(list)
             container.append(icon, name)
